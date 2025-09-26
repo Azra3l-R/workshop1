@@ -54,7 +54,3 @@
 - **MotorRecomendaciones:** Suggests activities based on patterns
 - **GestorEstadísticas:** Generates reports and charts
 - **ComunicacionProfesionales:** Connects with specialists
-
----
-
-## 📁 File Structure
