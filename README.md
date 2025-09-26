@@ -1,56 +1,52 @@
-# TEND - Mental Health Assistant App
+# TEND - Asistente de Salud Mental
 
-## 📱 Project Description
-**TEND** is a mobile application designed as a mental health assistant that helps users track their emotional well-being, daily habits, and personal reflections.
+## 🧠 Descripción del Proyecto
+Este proyecto consiste en el diseño de **TEND**, una aplicación móvil enfocada en acompañar a los usuarios en la gestión de su bienestar emocional y facilitar la conexión con profesionales certificados de salud mental.
+
+El documento consolidado muestra el desarrollo de la idea desde la definición de problemas hasta la propuesta de diseño orientado a objetos.
 
 ---
 
-## 📋 Workshop 1 Deliverables
+## 📚 Proceso de Elaboración
 
-### 1. System Requirements
-**File:** `workshop1.pdf`
+### 1. **Fase de Requerimientos**
 
-**Functional Requirements:**
-- Secure user registration (email, social media, biometrics)
-- Daily mood tracking with colors/emojis
-- Habit monitoring (sleep, nutrition, exercise)
-- Personal journal with password protection
-- Custom notifications and reminders
-- Progress statistics with charts
-- Connection with mental health professionals
+**Requerimientos Funcionales:**
+- Registro e inicio de sesión seguro
+- Calendario de emociones con colores diarios
+- Diario personal para reflexiones y notas de gratitud
+- Recordatorios y notificaciones personalizadas
+- Estadísticas gráficas y reportes de progreso
+- Comunicación con centros de salud verificados
 
-**Non-Functional Requirements:**
-- Maximum security: encrypted data and secure authentication
-- Intuitive interface (max 3 steps for main functions)
-- 24/7 availability with auto-save
-- Response time < 2 seconds
+**Requerimientos No Funcionales:**
+- Seguridad y privacidad (encriptación, autenticación segura)
+- Usabilidad (interfaz intuitiva y calmante)
+- Disponibilidad 24/7 con respaldo de datos
+- Compatibilidad multiplataforma (Android, iOS)
+- Rendimiento (respuesta < 2 segundos)
+- Ética y confianza (sin diagnósticos automáticos)
 
-### 2. User Stories
+### 2. **Fase de User Stories**
 
-| Function | Purpose | Acceptance Criteria |
-|----------|---------|---------------------|
-| Registration | Manage personalized progress | Secure registration and profile setup |
-| Reminders | Maintain good habits | Configurable and automatic notifications |
-| Personal Journal | Reflect and express feelings | Text/images/audio with secure locking |
-| Emotion Control | View trends over time | Habit tracking and visual calendar |
+Historias de usuario que reflejan necesidades reales de:
+- Pacientes que buscan acompañamiento y motivación
+- Profesionales que necesitan acceder a resúmenes previos
 
-### 3. Interface Mockups
+Cada historia incluye criterios de aceptación para validación objetiva.
 
-**Main screens designed:**
-- **Login/Registration:** Secure app access
-- **Main Screen:** Calendar with daily color indicators
-- **Daily Registration:**
-  - Emotions (feeling selection)
-  - Sleep (hours slept)
-  - Nutrition (daily meals)
-- **Analysis:** Daily summary with recommendations
+### 3. **Fase de Mockups**
 
-### 4. CRC Cards (Class-Responsibility-Collaborator)
+Prototipos visuales que representan la experiencia del usuario:
+- Pantalla de registro de usuario
+- Calendario con colores emocionales
+- Registro de estados de ánimo y hábitos
+- Visualización de estadísticas y reportes
 
-**Main classes identified:**
-- **Usuario:** Handles authentication and profile
-- **GestorEmociones:** Records moods and habits
-- **DiarioPersonal:** Manages journal entries
-- **MotorRecomendaciones:** Suggests activities based on patterns
-- **GestorEstadísticas:** Generates reports and charts
-- **ComunicacionProfesionales:** Connects with specialists
+### 4. **Fase de CRC Cards**
+
+Definición de la arquitectura orientada a objetos:
+- Classes principales del sistema (Usuario, Diario, Estadísticas, etc.)
+- Responsabilidades específicas y colaboraciones
+- Base para el desarrollo técnico futuro
+
